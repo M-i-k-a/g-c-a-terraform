@@ -1,4 +1,5 @@
-name: 'Terraform'
+# HEllo
+name: 'Terraformm'
 
 on:
   push:
@@ -11,6 +12,10 @@ jobs:
     name: 'Terraform'
     runs-on: ubuntu-latest
     steps:
+     # Runs a single command using the runners shell
+    - name: Run a one-line script
+      run: echo Hello, world!
+      
     - name: Checkout
       uses: actions/checkout@v2
 
