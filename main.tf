@@ -1,6 +1,6 @@
 provider "aws" {
   #profile    = "sandboxtt"
-  #region     = "eu-west-1"
+  region     = "eu-west-1"
 }
 
 terraform {
