@@ -8,7 +8,7 @@ terraform {
    organization = "g-cloud-academy"
 
    workspaces {
-     name = "g-c-a-terraform"
+     name = "g-c-a-terraform2"
    }
  }
 }
