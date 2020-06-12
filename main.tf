@@ -14,5 +14,5 @@ terraform {
 }
 
 resource "aws_s3_bucket" "terraform_s3_bucket" {
-    bucket = "g-cloud-academy-terraform-github-1"
+    bucket = "g-cloud-academy-terraform-github-2"
 }
