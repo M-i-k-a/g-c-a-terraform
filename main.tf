@@ -1,16 +1,15 @@
 provider "aws" {
-  #profile    = "sandboxtt"
-  region     = "eu-west-1"
+  region = "eu-west-1"
 }
 
 terraform {
- backend "remote" {
-   organization = "g-cloud-academy"
+  backend "remote" {
+    organization = "g-cloud-academy"
 
-   workspaces {
-     name = "g-c-a-terraform"
-   }
- }
+    workspaces {
+      name = "g-c-a-terraform"
+    }
+  }
 }
 
 resource "aws_s3_bucket" "terraform_s3_bucket" {
